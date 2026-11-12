@@ -1,0 +1,2 @@
+All assets used for the website-parts of the project are stored here.
+Additionally, they're stored in WorldWanderer-main\website\static\assets
