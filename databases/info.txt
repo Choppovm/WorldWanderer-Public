@@ -1,0 +1,8 @@
+Folder holds all database-related material
+
+Resources that should be used:
+- SQLite3 - Python Library + SQL
+- DB Browser for SQLite - how to view + modify databases
+
+VS Code plugin(s):
+- SQLite Viewer by Florian Klampfer (https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer)
