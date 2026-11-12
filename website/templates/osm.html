@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- See https://www.w3schools.com/css/css_rwd_viewport.asp -->
+        <title>OSM Map</title>
+        
+        <!-- Leaflet 1.9.4 will be used; most recent stable version -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/> <!-- Leaflet CSS: styles map and controls -->
+        
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/osm.css') }}"> <!-- Stylesheet for this web page-->        
+    </head>
+    <body>
+        <div id="map"></div> <!-- Where the map appears -->
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script> <!-- Leaflet JS: gives all map functionality -->
+        <script src="{{ url_for('static', filename='js/osm.js') }}"></script> <!-- JavaScript for this web page-->
+    </body>
+</html>

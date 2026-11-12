@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- See https://www.w3schools.com/css/css_rwd_viewport.asp -->
+        <title>Mapillary Viewport</title>
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/mapillary.css') }}"> <!-- Stylesheet for this web page-->
+    </head>
+    <body>
+        <div class="wrap">
+            <h1 style="margin: 0 0 12px; font-size: 20px;" id="status">Loading Mapillary Image...</h1>
+            <img id="img" alt="Mapillary Image (if you see this message outside developer tools, image could not be rendered. Hint: The country is [UNAVAILABLE])"/>
+
+            <script>const MAPILLARYTOKEN = "{{ token }}";</script> <!-- JS file is static, needs to be defined here | // Loaded from initialise.py, token stored in mapillaryaccesstoken.txt -->
+            <script src="{{ url_for('static', filename='js/mapillary.js') }}"></script> <!-- JavaScript for this web page-->
+        </div>
+    </body>
+</html>

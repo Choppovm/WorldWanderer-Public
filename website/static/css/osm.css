@@ -1,0 +1,16 @@
+/* This part uses entire page for the map */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Map container */
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+/* Remove leaflet attribution to prevent users breaking app by escaping site */
+.leaflet-control-attribution {
+    display: none;
+}
