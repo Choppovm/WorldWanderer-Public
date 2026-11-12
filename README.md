@@ -1,3 +1,18 @@
+# WorldWanderer: Public Release
+
+WorldWanderer was the project I created for my AQA A-Level Computer Science NEA project.
+
+It's a singleplayer game acting as a recreation of the popular online game GeoGuessr.
+
+Notes:
+- Documentation is NOT being included. This is to protect the privacy of myself and others involved in the project (e.g. testers).
+- All sensitive content has been removed (e.g. names of testers in databases, etc.)
+- This is an archive, serving as a publicly accessible version only. **This project has not been under active development since December 2025, and will remain that way.**
+
+Please make an issue if there are questions or concerns, although do not expect a reply.
+
+---
+
 # WorldWanderer
 AQA A-Level Computer Science NEA/Coursework Project.
 
